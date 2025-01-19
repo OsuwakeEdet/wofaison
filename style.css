@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    max-width: 90%;
+    margin: auto;
+    background-color: rgb(90, 86, 86);
+    color: rgb(201, 194, 194);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    color: rgb(201, 194, 194);
+    padding: 2em 0em;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(201, 194, 194);
+}
+
+.head1 h1 {
+    font-size: 2.6rem;
+    font-weight: 900;
+}
+
+.head2 {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 1em;
+}
+
+.hero {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6em 2em 6em;
+    gap: 2em;
+}
+
+.hero1 {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero1 h2 {
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.hero2 {
+    display: flex;
+    max-width: 100%;
+    gap: 1em;
+}
+
+.hero-search input {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(77, 75, 75);
+    color: rgb(201, 194, 194);
+    padding: 1em 2em  ;
+}
+
+.hero2 button {
+    border: none;
+    padding: 1.5em 4em;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(71, 71, 71);
+    color: rgb(201, 194, 194);
+
+
+}
+
+.hero-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    background-color: rgb(77, 75, 75);
+    padding: 0.2em 1em;
+    border-radius: 15px;
+}
+
+.hero-search i{
+    color: rgb(201, 194, 194);
+}
