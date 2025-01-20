@@ -73,6 +73,10 @@ Contributions are welcome! If you'd like to improve this project, follow these s
 3. Make your changes and commit them with clear messages.
 4. Push to your fork and submit a pull request.
 
+## Caution 
+check the designInspo folder to see the designs being to be used for the project.
+please write the code on vscode, run it then paste it into the repository to avoid problems
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
