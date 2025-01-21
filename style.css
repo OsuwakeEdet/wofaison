@@ -10,11 +10,11 @@
 body {
     max-width: 90%;
     margin: auto;
-    background-color: rgb(90, 86, 86);
+    background-color: rgb(58, 57, 57);
     color: rgb(201, 194, 194);
 }
 
-nav {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,9 +23,10 @@ nav {
     padding: 2em 0em;
 }
 
-nav a {
+.navbar a {
     text-decoration: none;
     color: rgb(201, 194, 194);
+    font-weight: 600;
 }
 
 .head1 h1 {
@@ -72,36 +73,212 @@ nav a {
     gap: 1em;
 }
 
-.hero-search input {
+.hero-search .search {
     border: none;
     display: flex;
     flex-direction: column;
     background-color: rgb(77, 75, 75);
     color: rgb(201, 194, 194);
-    padding: 1em 2em  ;
+    padding: 1em 2em;
 }
 
-.hero2 button {
+.hero2 .btn {
     border: none;
     padding: 1.5em 4em;
     text-align: center;
     border-radius: 15px;
     background-color: rgb(71, 71, 71);
     color: rgb(201, 194, 194);
-
-
 }
 
-.hero-search {
+.hero .hero-search {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1em;
     background-color: rgb(77, 75, 75);
     padding: 0.2em 1em;
     border-radius: 15px;
 }
 
-.hero-search i{
+.hero-search i {
     color: rgb(201, 194, 194);
+}
+
+.explore {
+    margin-top: 4em;
+}
+
+.explore-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(95, 95, 95);
+    border-bottom: 1px solid rgb(95, 95, 95);
+    padding: 2em 0 2em;
+}
+
+.explore-container1 div h2 {
+    font-size: 2.4rem;
+}
+
+.explore-container1 div i {
+    font-size: 2rem;
+}
+
+.explore-container2 {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    max-width: 100%;
+    border-bottom: 1px solid rgb(95, 95, 95);
+}
+
+.explore-item1,
+.explore-item2,
+.explore-item3 {
+    max-width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-right: 1px solid rgb(95, 95, 95);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.explore-item3 {
+    border-right: none;
+}
+
+
+.img1 img,
+.img2 img,
+.img3 img {
+    max-width: 100%;
+}
+
+.img1 {
+    max-width: 80%;
+}
+
+.img2 {
+    max-width: 80%;
+}
+
+.img3 {
+    max-width: 80%;
+}
+
+
+.explore-text h2 {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.explore-text p {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    color: rgb(143, 143, 143);
+}
+
+.community-header {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(95, 95, 95);
+    border-bottom: 1px solid rgb(95, 95, 95);
+    padding: 2em 0 2em;
+    font-size: 1.2rem;
+}
+
+.community-header div h2 {
+    font-size: 2.4rem;
+}
+
+.community-header div i {
+    font-size: 2rem;
+}
+
+.driver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    border-bottom: 1px solid rgb(95, 95, 95);
+}
+
+.driver .img {
+    max-width: 50%;
+}
+
+.driver .img img {
+    max-width: 100%;
+}
+
+.driver-text {
+    border-left: 1px solid rgb(95, 95, 95);
+    padding: 4em;
+}
+
+.driver-text h3 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+.driver-text p {
+    padding-bottom: 3em;
+    color: rgb(143, 143, 143);
+}
+
+.btn {
+    border: none;
+    padding: 1.5em 4em;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(71, 71, 71);
+    color: rgb(201, 194, 194);
+}
+
+.btn:hover {
+    background-color: rgb(95, 95, 95);
+    cursor: pointer;
+    transition: 2s;
+}
+
+.supplier {
+    display: flex;
+    gap: 2em;
+    border-bottom: 1px solid rgb(95, 95, 95);
+}
+
+.supplier .img {
+    max-width: 100%;
+}
+
+.supplier .img img {
+    max-width: 100%;
+    padding: 2em;
+}
+
+.supplier-text {
+    border-left: 1px solid rgb(95, 95, 95);
+    padding-left: 4em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.supplier-text h3 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+.supplier-text p {
+    padding-bottom: 3em;
+    color: rgb(143, 143, 143);
 }
