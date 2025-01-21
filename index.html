@@ -16,7 +16,7 @@
 
 <body>
     <main>
-        <nav>
+        <nav class="navbar">
             <div class="head1">
                 <a href="index.html">
                     <h1>Wofaison</h1>
@@ -39,35 +39,39 @@
 
             <div class="hero2">
                 <div class="hero-search">
-                    <input type="search" name="search" id="search" placeholder="Search for products" />
+                    <input class="search" type="search" name="search" id="search" placeholder="Search for products" />
                     <a href="search.html">
                         <i class="bx bx-search-alt"></i>
                     </a>
                 </div>
-                <div class="btn"><button>Search</button></div>
+                <div><button class="btn">Search</button></div>
             </div>
         </section>
 
         <section class="explore">
-            <div class="explore-container">
-                <h2>Explore our Marketplace</h2>
+            <div class="explore-container1">
+                <div>
+                    <h2>Explore our marketplace</h2>
+                </div>
+                <div><i class='bx bxs-hand-down'></i></div>
             </div>
 
-            <div class="explore-container">
-                <div class="explore-item">
-                    <img src="" alt="" />
+            <div class="explore-container2">
+
+                <div class="explore-item1">
+                    <div class="img1"><img src="pexels-karolina-grabowska-5632398.jpg" alt="" /></div>
                     <div class="explore-text">
                         <h2>Explore & Add to Cart</h2>
                         <p>
                             Search for items or browse through categories to find what you
                             need. Check product details and prices to ensure it meets your
-                            requirements. Click "Add to Cart" to store items for checkout.
+                            requirements.
                         </p>
                     </div>
                 </div>
 
-                <div class="explore-item">
-                    <img src="" alt="" />
+                <div class="explore-item2">
+                    <div class="img2"><img src="pexels-ivan-samkov-7620903.jpg" alt="" /></div>
                     <div class="explore-text">
                         <h2>Checkout & Pay</h2>
                         <p>
@@ -78,8 +82,8 @@
                     </div>
                 </div>
 
-                <div class="explore-item">
-                    <div class="img"><img src="" alt="" /></div>
+                <div class="explore-item3">
+                    <div class="img3"><img src="pexels-karolina-grabowska-4506249.jpg" alt="" /></div>
                     <div class="explore-text">
                         <h2>Delivery & Enjoy</h2>
                         <p>
@@ -94,24 +98,27 @@
 
         <section class="community">
             <div class="community-header">
-                <h2>Join the Wofaison community</h2>
+                <div>
+                    <h2>Join the Wofaison community</h2>
+                </div>
+                <div><i class='bx bxs-hand-down'></i></div>
             </div>
 
             <div class="community-items">
                 <div class="driver">
-                    <div class="img"><img src="" alt="" /></div>
+                    <div class="img"><img src="undraw_delivery-truck_mjui.svg" alt="" /></div>
                     <div class="driver-text">
                         <h3>Driver</h3>
                         <p>
                             Join our team of drivers to deliver fresh products to customers.
                             Be a part of a community that values your contribution.
-                            <button>Deliver for us</button>
                         </p>
+                        <button class="btn">Deliver for us</button>
                     </div>
                 </div>
 
                 <div class="supplier">
-                    <div class="img"><img src="" alt="" /></div>
+                    <div class="img"><img src="undraw_agreement_w6ua.svg" alt="" /></div>
                     <div class="supplier-text">
                         <h3>Supplier</h3>
                         <p>
@@ -119,8 +126,9 @@
                             our customers. We're always on the lookout for reliable
                             suppliers to provide top-quality products across various
                             categories.
-                            <button>Partner with us</button>
                         </p>
+                        <button class="btn">Partner with us</button>
+
                     </div>
                 </div>
             </div>
