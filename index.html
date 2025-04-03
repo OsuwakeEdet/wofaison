@@ -5,11 +5,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Silkscreen:wght@400;700&display=swap"
         rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Pacifico&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="style.css" />
     <title>Wofaison Stores</title>
 </head>
@@ -19,17 +23,23 @@
         <nav class="navbar">
             <div class="head1">
                 <a href="index.html">
-                    <h1>Wofaison</h1>
+                    <h1 title="Home">Wofaison</h1>
                 </a>
             </div>
 
             <div class="head2">
                 <div>
-                    <a href="search.html"><i class="bx bx-search-alt"></i></a>
+                    <a href="search.html" title="Search"><i class="bx bx-search-alt"></i></a>
                 </div>
-                <div><a href="login.html">Login</a></div>
-                <div><a href="login.html">Register</a></div>
+                <div>
+                    <a href="login.html" title="Login to Your Account">Login</a>
+                </div>
+                <div><a href="login.html" title="Register with us">Register</a></div>
             </div>
+            <div class="menu">
+                <i class='bx bx-menu'></i>
+            </div>
+
         </nav>
 
         <section class="hero">
@@ -44,6 +54,8 @@
                 <div>
                     <a href="search.html"><button class="btn">Search</button></a>
                 </div>
+
+
             </div>
         </section>
 
@@ -61,12 +73,16 @@
                         <img src="pexels-karolina-grabowska-5632398.jpg" alt="" />
                     </div>
                     <div class="explore-text">
-                        <h2>Explore & Add to Cart</h2>
-                        <p>
-                            Search for items or browse through categories to find what you
-                            need. Check product details and prices to ensure it meets your
-                            requirements.
-                        </p>
+                        <div>
+                            <h2>Explore & Add to Cart</h2>
+                        </div>
+                        <div>
+                            <p>
+                                Search for items or browse through categories to find what you
+                                need. Check product details and prices to ensure it meets your
+                                requirements.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -75,12 +91,17 @@
                         <img src="pexels-ivan-samkov-7620903.jpg" alt="" />
                     </div>
                     <div class="explore-text">
-                        <h2>Checkout & Pay</h2>
-                        <p>
-                            Review your cart to ensure all items are correct. Click
-                            "Checkout" to proceed to payment. Choose your preferred payment
-                            method and complete the transaction.
-                        </p>
+                        <div>
+                            <h2>Checkout & Pay</h2>
+                        </div>
+
+                        <div>
+                            <p>
+                                Review your cart to ensure all items are correct. Click
+                                "Checkout" to proceed to payment. Choose your preferred
+                                payment method and complete the transaction.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -89,12 +110,16 @@
                         <img src="pexels-karolina-grabowska-4506249.jpg" alt="" />
                     </div>
                     <div class="explore-text">
-                        <h2>Delivery & Enjoy</h2>
-                        <p>
-                            Wait for your order to be delivered to your doorstep. Check the
-                            items to ensure they are correct. Enjoy your fresh products and
-                            shop again!
-                        </p>
+                        <div>
+                            <h2>Delivery & Enjoy</h2>
+                        </div>
+                        <div>
+                            <p>
+                                Wait for your order to be delivered to your doorstep. Check
+                                the items to ensure they are correct. Enjoy your fresh
+                                products and shop again!
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -165,36 +190,76 @@
         </section>
     </main>
 
-    <footer class="foot">
-        <div class="foot1">
-            <div class="foot1-item1">
-                <h1>Wofaison Stores</h1>
-                <p style="color: #CCCCCC;">Fresh groceries delivered to your door. Happiness guaranteed.</p>
-                <p style="color: #CCCCCC;">📍 123 Fresh Lane, Food City, FC 12345</p>
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="brand-section">
+                <h1 class="brand-title">Wofaison Stores</h1>
+                <p class="brand-tagline">Fresh groceries delivered to your door.<br>Happiness guaranteed.</p>
+                <div class="contact-info">
+                    <p class="address">📍 123 Fresh Lane, Food City, FC 12345</p>
+                    <a href="mailto:info@wofaison.com" class="email">✉️ info@wofaison.com</a>
+                    <a href="tel:+11234567890" class="phone">📞 +1 (123) 456-7890</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook" class="social-icon" title="Facebook"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#" aria-label="Instagram" class="social-icon" title="Instagram"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#" aria-label="Twitter" class="social-icon" title="Twitter"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" aria-label="TikTok" class="social-icon" title="Tiktok"><i class='bx bxl-tiktok'></i></a>
+                </div>
             </div>
 
-            <div class="foot1-item2">
-                <div class="foot1-item2-sub">
-                    <h2>About</h2>
-                    <p>About us</p>
-                    <p>Contact us</p>
-                </div>
-                <div class="foot1-item2-sub">
-                    <h2>Legal</h2>
-                    <p>Privacy Policy</p>
-                    <p>Terms And Conditions</p>
-                    <p>Return & Refund Policy</p>
+            <nav class="footer-nav">
+                <div class="nav-column">
+                    <h3 class="nav-title">About</h3>
+                    <ul class="nav-links">
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                        <li><a href="/careers">Careers</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                    </ul>
                 </div>
 
+                <div class="nav-column">
+                    <h3 class="nav-title">Legal</h3>
+                    <ul class="nav-links">
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li><a href="/terms">Terms & Conditions</a></li>
+                        <li><a href="/returns">Return Policy</a></li>
+                        <li><a href="/security">Security</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-column">
+                    <h3 class="nav-title">Support</h3>
+                    <ul class="nav-links">
+                        <li><a href="/faq">FAQ</a></li>
+                        <li><a href="/shipping">Shipping</a></li>
+                        <li><a href="/tracking">Order Tracking</a></li>
+                        <li><a href="/wholesale">Wholesale</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="newsletter-section">
+                <h3 class="newsletter-title">Stay Fresh!</h3>
+                <p class="newsletter-text">Subscribe for exclusive offers</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
             </div>
         </div>
 
-        <div class="foot2">
-            <!-- use a cursive or game like text for this part -->
-            Made with love by Emana Osuwake Edet ❤️
+        <div class="footer-bottom">
+            <div class="payment-methods">
+                <i class='bx bxl-bitcoin' title="bitcoin"></i> <i class='bx bxl-paypal' title="paypal"></i> <i
+                    class='bx bxl-mastercard' title="mastercard"></i> <i class='bx bxl-visa' title="visa"></i> <i
+                    class='bx bx-transfer-alt' title="bank transfer"></i>
+            </div>
+            <p class="copyright">© 2024 Wofaison Stores. All rights reserved.</p>
+            <p class="signature">Crafted with ❤️ by Emana Osuwake Edet</p>
         </div>
     </footer>
-
 </body>
 
 </html>
