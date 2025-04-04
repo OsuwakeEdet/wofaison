@@ -207,11 +207,11 @@ button {
   border-right: none;
 }
 
-.explore-text h2 {
+.explore-text h1 {
   margin-bottom: 1em;
   margin-top: 1em;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .explore-text p {
@@ -247,7 +247,7 @@ button {
   padding: 2em 0 2em;
 }
 
-.community-header div h2 {
+.community-header div h1 {
   font-size: 2.4rem;
 }
 
@@ -279,7 +279,7 @@ button {
   padding: 8em;
 }
 
-.driver-text h3 {
+.driver-text h2 {
   font-size: 3rem;
   margin-bottom: 1em;
 }
@@ -310,7 +310,7 @@ button {
   max-width: 50%;
 }
 
-.supplier-text h3 {
+.supplier-text h2 {
   font-size: 3rem;
   margin-bottom: 1em;
 }
@@ -589,7 +589,7 @@ button {
     max-width: 100%;
   }
 
-  .explore-container1 h2 {
+  .explore-container1 h1 {
     font-size: 1.8rem; /* Reduced heading size */
   }
 
@@ -606,7 +606,7 @@ button {
     max-width: 100%;
   }
 
-  .explore-text h2 {
+  .explore-text h1 {
     font-size: 1.4rem;
     margin: 0.5em 0;
   }
@@ -621,8 +621,8 @@ button {
     padding: 1em;
   }
 
-  .driver-text h3,
-  .supplier-text h3 {
+  .driver-text h2,
+  .supplier-text h2 {
     font-size: 2rem; /* Reduced heading size */
   }
 
@@ -687,7 +687,7 @@ button {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 1.8em;
+    gap: 2em;
   }
 
   .hero-form-input {
